@@ -1,0 +1,159 @@
+/*gestion du passage de la souris sur un liens*/
+a {
+  text-decoration: none;
+}
+a:hover {/* Ajouter un soulignement personnalisé au survol du lien */
+  text-decoration: underline;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+/* gestion de la barre superieur */
+.barre_du_haut{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+/*gestion de la div gm et img */
+.gm_img_barre{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  line-height: 24px;
+}
+.gm_barre{
+  margin-right: 15px;
+}
+.img_barre{
+  margin-right: 15px;
+}
+
+/*gestion de la div app et connexion */
+.app_cnx{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  margin-right: 20px;
+  line-height: 24px;
+  align-items: center;
+}
+.app img {
+  width: 24px;
+}
+.app {
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+}
+.Connexion{
+  font-family: Helvetica,Arial; /* gestion de la type de typo */
+  font-weight: bold; /* gestion de l'épaisseur typo */
+  font-size: 14px;
+  color: aliceblue;
+  letter-spacing: .25px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-right: 8px;
+  min-width: 96px;
+  padding: 9px 23px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #1a73e8;
+}
+.barre_logo {
+  width: auto;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.logo {
+  max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.espace_recherche {
+  padding: 20px;
+  width: auto;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.barre_rch {
+  padding: 5px 8px 0 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+}
+.search-box {
+  flex: 0.8; /* Utilisation de flexbox pour occuper tout l'espace disponible */
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  width:900px;
+  height: 40px;
+  display: flex;
+  
+}
+.bouton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  padding-top: 18px;
+}
+.bouton_rch {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+
+}
+.bouton_jdlc {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+.barre_bas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.climat {
+  display: flex;
+  justify-content: space-around
+}
+.renseignement {
+  display: flex;
+  justify-content: space-around
+}
